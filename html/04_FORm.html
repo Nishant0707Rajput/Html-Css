@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMs</title>
+</head>
+<body>
+    <div>
+        <h1>Travel form for our trip</h1>
+        <form action="new_form.php">
+            <input type="text" placeholder="Enter Your Name">
+            <br>
+            <label for="ClassID-A">
+                <!-- same name means only one option will be selected in radio -->
+                <input type="radio" value="Class A" name="Class" id = "ClassID-A" > Class i
+            </label>
+            <label for="ClassID-B">
+                <input type="radio" value="Class B" name="Class" id = "ClassID-B" > Class ii
+            </label>
+            <br>
+            <label for="ek">
+            <input type="checkbox" name="Food canteen" id= "ek" > Ek checkbox
+            </label>
+            <br>
+            <textarea name="Explain" id="Explain" cols="30" rows="10" placeholder="Why you want to join"></textarea>
+            <select name="cars" id="car">
+                <option value="no-car"> Select your car</option>
+                <option value="Car 1"> Omni</option>
+                <option value="Car 2">Dzire</option>
+                <option value="Car 3">i10</option>
+            </select>
+        </form>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        li{
+            /* display: inline; */
+            list-style: square inside url(wer.png) ;
+        }
+        .fruitlist{
+            background-color: aqua;
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 168px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .container{
+            background-color: blue;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            position: relative;
+            
+            
+        }
+        body{
+            height: 2500px;
+        }
+        .box{
+            /* border: brown; */
+            height: 200px;
+            width: 200px;
+            background-color: crimson;
+            /* position: relative; */
+            position: absolute;
+            bottom: 0;
+            RIGHT: 0;
+            
+        }
+        .chatbox{
+            /* border: brown; */
+            height: 40px;
+            width: 200px;
+            background-color: rgb(147, 20, 220);
+            /* position: relative; */
+            position: fixed;
+            bottom: 0;
+            RIGHT: 0;
+            text-align: center;
+            padding: 7px;
+            
+        }
+        .box2{
+            border: brown;
+            height: 200px;
+            width: 200px;
+            background-color: darkgoldenrod;
+            /* position: relative; */
+
+            /* top: 23px; */
+        }
+        p{
+            border: 2px solid green;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home </li>
+                <li>About</li>
+                <li>Contact us</li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tenetur veritatis maiores adipisci nobis! Aliquid error praesentium neque aut beatae. Minus sed adipisci voluptate soluta fuga accusantium magni asperiores a?</p> 
+            <div class="box">This is box</div>
+            <div class="box2">This box 2</div>
+            <div class="chatbox">Chat with us</div>
+        </div>
+        <div class="fruitlist">
+            <ul>
+                <li>Apple</li>
+                <li>Orange</li>
+                <li>Banana</li>
+            </ul>
+        </div>
+    
+</body>
+</html>
